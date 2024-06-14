@@ -2,7 +2,7 @@
 
 Welcome to Clothing Website! This is a my project, built using Flask.
 
-# # #Table of Contents
+### Table of Contents
 # Introduction
 # Features
 # Installation
