@@ -1,0 +1,117 @@
+/* styles.css */
+body,html{
+  height: 100%;
+}
+
+
+body {
+  
+  font-family: Arial, sans-serif;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+
+
+
+  
+
+.row img{
+  width: 200px;  
+  border: 2px solid #ffffff; 
+
+}
+
+.product {
+  margin: 20px;
+  display: inline;
+  width: 200px;
+}
+
+.product img {
+  width: 100%;
+  max-height: 100% /* Make the image take up 100% of the parent container */
+  height: 200px; /* Set a fixed height for the images */
+  object-fit: cover; /* Ensure the image covers the specified dimensions */
+}
+
+.product-text {
+  background-color: #f8f8f8;
+  padding: 10px;
+}
+
+
+.price p {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.heart.icon, i.box-icon {
+  font-size: 1.5em;
+  fill: red;
+}
+
+.rattings i.box-icon {
+  color: #FFD700;
+  font-size: 1em;
+}
+
+img{
+width: 300px; 
+
+border: 1px solid #ccc; 
+border-radius: 8px;
+}
+
+button{
+  padding: 5px 15px;
+  background: #ed91e5;
+  text-transform: uppercase;
+  font-weight: bolder;
+
+}
+
+.price button{
+padding: 5px 15px;
+background: #ed91e5;
+text-transform: uppercase;
+font-weight: bolder;
+
+}
+
+
+
+.cloth{
+  width: 100%; 
+  float: left;
+  height: 500px;
+  width:500px;
+}
+
+@media screen and (max-width: 600px){
+  .cloth{
+      width: 100%;
+  }
+}
+
+.column{
+  width: 33.33%;
+  float: left;
+}
+@media screen and (max-width: 600px){
+  .column{
+      width: 100%;
+  }
+}
+.horizontal{
+  width: 33.33%;
+  float: left;
+}
+@media screen and (max-width: 600px){
+  .horizontal{
+      width: 100%;
+  }
+}
+
+

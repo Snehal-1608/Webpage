@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> user details</title>
+	<link rel="stylesheet" type="text/css" href="{{url_for('static', filename='../static/users.css')}}">
+
+
+</head>
+<body>
+<div class="container">
+<table border="1px" cellspacing="10" class="user-table"> 
+<tr>
+	<td>Id</td>
+
+	<td>Name</td>
+
+	<td>Email id</td>
+
+	<td>Address</td>
+
+	<td>Password</td>
+</tr>
+
+{% for i in u%}
+	<tr>
+		<td>{{i[0]}}</td>
+	
+		<td>{{i[1]}}</td>
+	
+		<td>{{i[2]}}</td>
+	
+		<td>{{i[3]}}</td>
+	
+		<td>{{i[4]}}</td>
+
+		<td><a href="/updateuser/{{i[0]}}">Edit</a></td>
+		<td><a href="/deleteuser/{{i[0]}}">delete</a></td> 
+	</tr>  
+{% endfor %}
+
+
+
+</table>
+</div>
+</body>
+</html>

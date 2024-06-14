@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Flaskadv: registration Page</title>
+	<link rel="stylesheet" href="{{url_for('static', filename='../static/page2.css')}}">
+	
+	<link rel="stylesheet" type="text/css" href="page2.css">
+</head>
+<body>
+	<div class="container">
+	<div align="center">
+ 		<fieldset>
+ 			<form  action="insertrec" method="POST">
+ 				<table>
+ 					
+ 					<tr class="form-group">
+ 						<td>Id: </td>
+ 						<td><input type="password" name="id"></td>
+
+ 					</tr>
+
+ 					<tr class="form-group">
+ 						<td>Username: </td>
+ 						<td><input type="text" name="uname"></td>
+ 					</tr>
+
+ 					<tr class="form-group">
+ 						<td>Password: </td>
+ 						<td><input type="password" name="pin"></td>
+
+ 					</tr>
+ 					<tr class="form-group">
+						<td>Email: </td>
+ 						<td><input type="text" name="email"></td>
+
+ 					</tr>
+ 					<tr class="form-group">
+ 						<td>Address: </td>
+ 					    <td><input type="text" name="address"></td>
+ 					</tr class="form-group">
+ 						<td><input type="reset" value ="Reset"></td>
+ 						<td><input type="submit" value="Submit"></td>
+ 					</tr>
+ 				</table>
+
+ 				<h3>Already Have an Account.....! <a href="/">Log In</a></h3>
+ 			</form>  
+ 		</fieldset>
+ 	</div>
+
+</body>
+</html>
