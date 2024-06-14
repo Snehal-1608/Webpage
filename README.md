@@ -8,7 +8,7 @@ Welcome to Clothing Website! This is a my project, built using Flask.
 ### Installation
 
 ### Introduction
- Welcome to Clothing Website! This is a web application developed using Flask, a lightweight WSGI web application framework in Python. Clothing is designed to for ecommerce shopping Website for cusomers
+ Welcome to Clothing Website! This is a web application developed using Flask, a lightweight web application framework in Python. Clothing is designed to for ecommerce shopping Website for cusomers
 
 ### Features
 - Flask is a popular Python web framework that allows you to create web applications quickly and easily. Some of the key features of Flask are:
