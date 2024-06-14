@@ -14,7 +14,7 @@ Welcome to Clothing Website! This is a my project, built using Flask.
 - Flask is a popular Python web framework that allows you to create web applications quickly and easily. Some of the key features of Flask are:
 
 - Lightweight and minimalistic: Flask has very few dependencies and provides only the essential components for web development, such as routing, request handling, templating, and testing. This makes Flask easy to learn and use, and also gives you more flexibility and control over your application.
-- Jinja2 templating engine: Flask uses Jinja2 as its default templating engine, which lets you write dynamic HTML templates with Python-like syntax. Jinja2 supports features such as inheritance, macros, filters, and expressions, and also offers security features such as auto-escaping and sandboxing.****
+- Jinja2 templating engine: Flask uses Jinja2 as its default templating engine, which lets you write dynamic HTML templates with Python-like syntax. Jinja2 supports features such as inheritance, macros, filters, and expressions, and also offers security features such as auto-escaping and sandboxing.
 
 ### Installation
 - Python 3.x
